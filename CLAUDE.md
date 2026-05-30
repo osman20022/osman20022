@@ -17,8 +17,15 @@ Werkwijze:
    ```
 2. Lees daarna `/tmp/output.md` in plaats van het originele bestand.
 
-Van toepassing op grote bestanden in formaten die MarkItDown ondersteunt, o.a.:
-HTML, PDF, DOCX, XLSX, PPTX, CSV, JSON, XML en EPUB.
+Van toepassing op grote bestanden in formaten die MarkItDown ondersteunt:
+
+- **Documenten:** PDF, DOCX, PPTX, XLSX, XLS
+- **Web/markup:** HTML, XML, CSV, JSON
+- **E-book/mail:** EPUB, Outlook `.msg`
+- **Media:** afbeeldingen (EXIF-metadata + optioneel OCR), audio (EXIF-metadata
+  + optioneel transcriptie)
+- **Overig:** ZIP-archieven (inhoud wordt uitgepakt en geconverteerd),
+  YouTube-URL's (transcript)
 
 Niet nodig voor:
 - Kleine bestanden (ruwweg < 50 KB) — direct lezen is dan efficiënter.
