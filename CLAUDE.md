@@ -27,10 +27,12 @@ Van toepassing op grote bestanden in formaten die MarkItDown ondersteunt:
 - **Overig:** ZIP-archieven (inhoud wordt uitgepakt en geconverteerd),
   YouTube-URL's (transcript)
 
-Niet nodig voor:
+**Niet gebruiken voor tekst.** Platte tekst en broncode (.txt, .md, .py, .js,
+.ts, .json-snippets, .csv-als-tekst, enz.) lees je altijd direct — ongeacht de
+grootte. Conversie levert daar geen tokenwinst op en kan opmaak juist verstoren.
+
+Verder niet nodig voor:
 - Kleine bestanden (ruwweg < 50 KB) — direct lezen is dan efficiënter.
-- Broncode en platte tekst (.py, .js, .ts, .md, .txt, enz.) — lees die direct,
-  want conversie levert geen winst op.
 
 Handmatig installeren (mocht de hook niet gelopen hebben):
 ```bash
